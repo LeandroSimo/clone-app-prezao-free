@@ -14,17 +14,19 @@ class _ScreenFreeCoinsState extends State<ScreenFreeCoins> {
 
   _body() {
     return Container(
-      child: Column(
-        mainAxisAlignment: MainAxisAlignment.center,
-        children: [
-          Text(
-            "Under Development...",
-            style: TextStyle(fontSize: 22, fontWeight: FontWeight.bold),
-          ),
-          LottieBuilder.network(
-            "https://assets8.lottiefiles.com/packages/lf20_m9zragkd.json",
-          ),
-        ],
+      child: Center(
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            Text(
+              "Under Development...",
+              style: TextStyle(fontSize: 22, fontWeight: FontWeight.bold),
+            ),
+            LottieBuilder.network(
+              "https://assets8.lottiefiles.com/packages/lf20_m9zragkd.json",
+            ),
+          ],
+        ),
       ),
     );
   }
